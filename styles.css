@@ -2,3 +2,11 @@ body {
     background: #7850ce;
     color: #ffffff;
 }
+
+a {
+    color: yellow;
+}
+
+a:hover {
+    color: #ffffff;
+}
