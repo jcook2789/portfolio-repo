@@ -4,9 +4,9 @@ body {
 }
 
 a {
-    color: yellow;
+    color: blue;
 }
 
 a:hover {
-    color: #ffffff;
+    color: yellow;
 }
