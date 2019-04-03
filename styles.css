@@ -8,9 +8,33 @@ a {
 }
 
 #port-nav ul {
-    list-style: none
+    list-style: none;
+    display: inline;
+}
+
+#port-nav>ul>li {
+    display: inline;
+}
+
+#port-nav>ul>li>a {
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    background: lightgreen;
+    display: inline;
+    text-decoration: none;
+}
+
+#port-nav>ul>li>a:hover {
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    background: white;
+    color: grey;
+    display: inline;
+    text-decoration: none;
 }
 
 a:hover {
-    color: yellow;
+    color: white;
 }
